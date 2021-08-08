@@ -6,7 +6,7 @@ const bx = document.querySelector('.bx')
 
 let idx = 0
 
-balloon.addEventListener('click', (ev) => {
+balloon.addEventListener('click', (ev) => { //кликнув
     if (ev.target.classList[0] === 'balloon-img') {
         box1[idx].src = ev.target.src
         idx++
